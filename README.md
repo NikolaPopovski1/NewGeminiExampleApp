@@ -96,7 +96,7 @@ public class Gemini {
 }
 ```
 
-### Java koda
+### Kotlin koda
 
 ```kotlin
 val inputContent = content {
@@ -106,6 +106,8 @@ val inputContent = content {
   text(prompt)
 }
 ```
+
+[Primerjava](https://ai.google.dev/api/generate-content#text_gen_multimodal_one_image_prompt_streaming-JAVA) Kotlin in Java kode, da naredimo isto stvar.
 
 ---
 
