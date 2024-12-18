@@ -14,10 +14,10 @@
 
 ## ⚖️ Licenca/e 👨🏾‍⚖️
 
-- Generirane vsebine Gemini lahko prosto uporabljamo.
-- Generative-ai-android uporablja [Apache Licenco](https://github.com/google-gemini/generative-ai-android?tab=Apache-2.0-1-ov-file#readme), ki je precej ohlapna (prosto osebna in komercialna uporaba, spreminjanje in distribucija kode, moramo le označiti avtorja).
-- Cene za Google Gemini API najdemo [tukaj](https://ai.google.dev/gemini-api/terms).
-- Pogoje storitve Google Gemini API najdemo [tukaj](https://ai.google.dev/gemini-api/terms).
+- Generirane vsebine Gemini lahko **prosto** uporabljamo.
+- Generative-ai-android uporablja [**Apache Licenco**](https://github.com/google-gemini/generative-ai-android?tab=Apache-2.0-1-ov-file#readme), ki je precej ohlapna (prosto osebna in komercialna uporaba, spreminjanje in distribucija kode, moramo le označiti avtorja).
+- **Cene** za Google Gemini API najdemo [tukaj](https://ai.google.dev/gemini-api/terms).
+- **Pogoje storitve** Google Gemini API najdemo [tukaj](https://ai.google.dev/gemini-api/terms).
 
 ---
 
@@ -33,17 +33,17 @@
 
 ### **Prednosti**
 
-- Visoka natančnost pri generiranju in analizi podatkov.
-- Razpoznavanje fotografij in pridobivanje podatkov z njih.
-- Razpoznavanje in generiranje besedila.
-- Preprosta koda.
+- Visoka **natančnost** pri generiranju in analizi podatkov.
+- Razpoznavanje **fotografij** in pridobivanje podatkov z njih.
+- Razpoznavanje in generiranje **besedila**.
+- **Preprosta** koda (Kotlin).
 
 ### **Slabosti**
 
-- Lahko pride do stroškov pri večji uporabi.
-- Na napravi je potrebna internetna povezava za dostop do API-ja.
-- Možnost omejitev pri uporabi za specifične starosti, regije ali jezike.
-- Malo dokumentacije in funkcionalnosti za Android aplikacije.
+- Lahko pride do **stroškov** pri večji uporabi.
+- Na napravi je potrebna internetna povezava oz. **ključ** za dostop do API-ja.
+- Možnost **omejitev** pri uporabi za specifične starosti, regije ali jezike.
+- **Malo dokumentacije** in funkcionalnosti za Android aplikacije.
 
 ---
 
