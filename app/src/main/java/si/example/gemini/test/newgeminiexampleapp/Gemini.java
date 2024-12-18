@@ -19,9 +19,8 @@ import java.util.concurrent.Executor;
 
 public class Gemini {
     public static void getResponse(ChatFutures chatModel, String message, Bitmap image, ResponseCallBack responseCallBack) {
-        // Set the role to "user" instead of "me"
         Content.Builder userMessage = new Content.Builder();
-        userMessage.setRole("user");  // Corrected to "user"
+        userMessage.setRole("user");
         userMessage.addText(message);
         if( image != null ) {
             userMessage.addImage(image);
