@@ -1,5 +1,7 @@
 package si.example.gemini.test.newgeminiexampleapp;
 
+import android.graphics.Bitmap;
+
 import com.google.ai.client.generativeai.GenerativeModel;
 import com.google.ai.client.generativeai.java.ChatFutures;
 import com.google.ai.client.generativeai.java.GenerativeModelFutures;
@@ -16,11 +18,14 @@ import java.util.Collections;
 import java.util.concurrent.Executor;
 
 public class Gemini {
-    public static void getResponse(ChatFutures chatModel, String message, ResponseCallBack responseCallBack) {
+    public static void getResponse(ChatFutures chatModel, String message, Bitmap image, ResponseCallBack responseCallBack) {
         // Set the role to "user" instead of "me"
         Content.Builder userMessage = new Content.Builder();
         userMessage.setRole("user");  // Corrected to "user"
         userMessage.addText(message);
+        if( image != null ) {
+            userMessage.addImage(image);
+        }
         Content userMessageContent = userMessage.build();
 
         Executor executor = Runnable::run;

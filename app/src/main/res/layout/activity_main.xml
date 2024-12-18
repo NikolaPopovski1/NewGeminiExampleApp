@@ -16,6 +16,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:alpha="0.2" />
+
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="0dp"
@@ -72,13 +73,23 @@
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_weight="0.3" />
+        <ImageView
+            android:id="@+id/selectedImageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:contentDescription="Selected Image"
+            android:layout_weight="0.3" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.3" />
         <Button
             android:id="@+id/send_message"
             android:layout_width="60dp"
             android:layout_height="53dp"
             android:layout_marginEnd="4dp"
-            android:layout_weight="0.1"
+            android:layout_weight="0.2"
             android:text="Send" />
     </LinearLayout>
     <ProgressBar
