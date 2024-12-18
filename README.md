@@ -121,5 +121,5 @@ val inputContent = content {
   <img src="readme_images/remember.jpg" alt="Remember Prompts" width="400" />
 
 - Image prompt  
-  <img src="readme_images/extractCode.jpg" alt="Extract Code Prompt" width="400" />
+  <img src="readme_images/code.jpg" alt="Code example" width="400" />
   <img src="readme_images/images.jpg" alt="Read code and text prompt" width="400" />
