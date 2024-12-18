@@ -25,12 +25,13 @@
         app:layout_constraintTop_toTopOf="@+id/userImg" />
 
     <TextView
-        android:id="@+id/message"
-        android:layout_width="wrap_content"
+        android:id="@+id/cor_message"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="TextView"
         android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/userImg"
         app:layout_constraintTop_toBottomOf="@+id/typer" />
 </androidx.constraintlayout.widget.ConstraintLayout>
