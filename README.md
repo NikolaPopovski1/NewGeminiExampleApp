@@ -123,3 +123,8 @@ val inputContent = content {
 - Image prompt  
   <img src="readme_images/extractCode.jpg" alt="Extract Code Prompt" width="400" />
   <img src="readme_images/images.jpg" alt="Read code and text prompt" width="400" />
+
+- Dejanska uporaba:
+  [Uporaba v aplikaciji](readme_images/video_demo.mp4)
+  Pripadajoča koda:
+  <img src="readme_images/app_demo_code.png" alt="Usage" width="400" />
