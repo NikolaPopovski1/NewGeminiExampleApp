@@ -14,10 +14,10 @@
 
 ## ⚖️ Licenca/e 👨🏾‍⚖️
 
-- Generirane vsebine Gemini lahko prosto uporabljamo.
-- Generative-ai-android uporablja [Apache Licenco](https://github.com/google-gemini/generative-ai-android?tab=Apache-2.0-1-ov-file#readme), ki je precej ohlapna (prosto osebna in komercialna uporaba, spreminjanje in distribucija kode, moramo le označiti avtorja).
-- Cene za Google Gemini API najdemo [tukaj](https://ai.google.dev/gemini-api/terms).
-- Pogoje storitve Google Gemini API najdemo [tukaj](https://ai.google.dev/gemini-api/terms).
+- Generirane vsebine Gemini lahko **prosto** uporabljamo.
+- Generative-ai-android uporablja [**Apache Licenco**](https://github.com/google-gemini/generative-ai-android?tab=Apache-2.0-1-ov-file#readme), ki je precej ohlapna (prosto osebna in komercialna uporaba, spreminjanje in distribucija kode, moramo le označiti avtorja).
+- **Cene** za Google Gemini API najdemo [tukaj](https://ai.google.dev/gemini-api/terms).
+- **Pogoje storitve** Google Gemini API najdemo [tukaj](https://ai.google.dev/gemini-api/terms).
 
 ---
 
@@ -33,17 +33,17 @@
 
 ### **Prednosti**
 
-- Visoka natančnost pri generiranju in analizi podatkov.
-- Razpoznavanje fotografij in pridobivanje podatkov z njih.
-- Razpoznavanje in generiranje besedila.
-- Preprosta koda.
+- Visoka **natančnost** pri generiranju in analizi podatkov.
+- Razpoznavanje **fotografij** in pridobivanje podatkov z njih.
+- Razpoznavanje in generiranje **besedila**.
+- **Preprosta** koda (Kotlin).
 
 ### **Slabosti**
 
-- Lahko pride do stroškov pri večji uporabi.
-- Na napravi je potrebna internetna povezava za dostop do API-ja.
-- Možnost omejitev pri uporabi za specifične starosti, regije ali jezike.
-- Malo dokumentacije in funkcionalnosti za Android aplikacije.
+- Lahko pride do **stroškov** pri večji uporabi.
+- Na napravi je potrebna internetna povezava oz. **ključ** za dostop do API-ja.
+- Možnost **omejitev** pri uporabi za specifične starosti, regije ali jezike.
+- **Malo dokumentacije** in funkcionalnosti za Android aplikacije.
 
 ---
 
@@ -96,7 +96,7 @@ public class Gemini {
 }
 ```
 
-### Java koda
+### Kotlin koda
 
 ```kotlin
 val inputContent = content {
@@ -106,6 +106,8 @@ val inputContent = content {
   text(prompt)
 }
 ```
+
+[Primerjava](https://ai.google.dev/api/generate-content#text_gen_multimodal_one_image_prompt_streaming-JAVA) Kotlin in Java kode, da naredimo isto stvar.
 
 ---
 
@@ -121,10 +123,10 @@ val inputContent = content {
   <img src="readme_images/remember.jpg" alt="Remember Prompts" width="400" />
 
 - Image prompt  
-  <img src="readme_images/extractCode.jpg" alt="Extract Code Prompt" width="400" />
+  <img src="readme_images/code.jpg" alt="Code example" width="400" />
   <img src="readme_images/images.jpg" alt="Read code and text prompt" width="400" />
 
-- Dejanska uporaba:
-  [Uporaba v aplikaciji](readme_images/video_demo.mp4)
-  Pripadajoča koda:
-  <img src="readme_images/app_demo_code.png" alt="Usage" width="400" />
+- Dejanska uporaba
+  ![Actual usage](readme_images/video_demo.mp4)
+     Pripadajoča koda
+  <img src="readme_images/app_demo_code.png" alt="Actual usage" width="400" />
