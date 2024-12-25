@@ -127,6 +127,6 @@ val inputContent = content {
   <img src="readme_images/images.jpg" alt="Read code and text prompt" width="400" />
 
 - Dejanska uporaba
-  ![Actual usage](readme_images/video_demo.mp4)
+  ![Actual usage](https://github.com/user-attachments/assets/03c8901e-7a6b-454c-8bc1-10673a998725)
      Pripadajoča koda
   <img src="readme_images/app_demo_code.png" alt="Actual usage" width="400" />
